@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bike Trail Tirol - Etappe 23</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../js/leaflet/leaflet.css" />
+    <script src="../js/leaflet/leaflet.js"></script>
+
+   <script src="data/etappe23.geojson.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    
+    <script defer src="biketirol.js"></script>
+    
+    <script src="../js/leaflet.fullscreen/Leaflet.fullscreen.js"></script>        
+    <link href="../js/leaflet.fullscreen/leaflet.fullscreen.css" rel='stylesheet' /> /
+
+    <script src="../js/leaflet.gpx/gpx.js"></script>  
+    
+</head>
+
+<body>
+    <div id="header">
+        <h2 class="white">Bike Trail Tirol</h2>
+        <h3 class="white">Von Mieders nach Mutters</h3>
+    </div>
+
+    <div class="author">
+        <img src="images/user.jpg" alt="Viel Spaß beim biken" />
+        <p class="gray">
+            <a href="mailto:emanuel.pixner@student.uibk.ac.at">Emanuel Pixner</a> 
+            <a href="https://epixner.github.io/biketirol/index.html">https://epixner.github.io/biketirol/</a>
+        </p>
+    </div>
+
+    <hr />
+    
+    <div class="article">
+        <h1>Etappe 23: Von Mieders nach Mutters</h1>
+        
+        <p>
+            Genügend Zeit zum Aufwärmen haben Sie auf dieser 20 Kilometer langen Strecke, denn die ersten Kilometer führen erst einmal abwärts, ehe der Anstieg erfolgt. Kondition ist für die Auffahrt zur Raitiser Alm nötig. Von dort aus geht es aber nahezu eben zur Mutterer Alm und weiter talwärts nach Mutters. </p>
+
+        <p>
+                <strong>Die Tour in Zahlen:</strong>
+               <p>
+                Länge:<span id="get_distance"></span>[m]
+                </p>
+                Tiefster Punkt:<span id="get_elevation_min"></span>[m]</p>
+                Höchster Punkt:<span id="get_elevation_max"></span>[m]</p>
+                Aufstieg:<span id="get_elevation_gain"></span>[m]
+                </p>
+                Abstieg:<span id="get_elevation_loss"></span>[m]
+                </p>
+
+        <div id="map"></div>
+
+        <h2>Streckenbeschreibung</h2>
+        <p>Zunächst begibt man sich auf der Straße etwa 600 Meter taleinwärts. Bei der ersten größeren Kreuzung fährt man Richtung Innsbruck/Telfes und unterquert die Bundesstraße. Immer geradeaus abwärts geht es bis zur Ruetz, dem Bach durchs Stubaital. Nach der Brücke zweigt man rechts ab (563) und fährt talauswärts durch Wiesen. Die Schilder „563 Telfer Wiesen Tour“ führen den Biker in Folge etwas ansteigend bis zu den Bahngleisen der Stubaitalbahn. Dort zweigt man rechts ab und radelt entlang der Telfer Wiesen bis nach Kreith (1h ab Mieders). Vor den ersten Häusern radelt man im spitzen Winkel links auf dem Fahrweg zur Kreither Alm (511) hinauf. Kurz vor der Kreither Alm auf ca. 1450m Seehöhe zweigt man rechts auf den „Almenweg“ ab. Nun radelt man vorbei an der Raitiser Alm weiter zur Mutterer Alm (510) (2h ab Kreith). Hier beginnt die Abfahrt über mehrere Kehren hinunter nach Mutters (30 min ab der Mutterer Alm). 
+            (Quelle: <a href="https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-mieders-mutters">Biketouren Tirol</a>) 
+        </p>
+   
+    
+
+
+
+        <h3>Links</h3>
+        <ul>
+            <li>https://www.tirol.at/reisefuehrer/sport/radfahren/biketouren/a-bike-trail-tirol-mieders-mutters</li>
+            <li>...</li>
+            <li>https://www.tirol.at/reisefuehrer/sport</li>
+            <li>https://www.tirol.at/reisefuehrer</li>
+
+        </ul>
+    </div>
+
+    <hr />
+
+    <div id="footer" class="gray">
+        <a class="back" href="https://webmapping.github.io/biketirol//22/index.html">
+            <i class="fas fa-arrow-alt-circle-left"></i> Etappe 22: Matrei-Mieders</a>
+        <a class="next" href="https://webmapping.github.io/biketirol//24/index.html">Etappe 24: Mutters Sellrain
+            <i class="fas fa-arrow-alt-circle-right"></i>
+        </a>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
