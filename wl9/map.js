@@ -99,6 +99,7 @@ layerAuswahl.onchange = function(evt) {
     ladeGeojsonLayer(jsonUrl);
 };
 
+//löschen des bestehende Datensä
 layerAuswahl.onchange = function(evt) {
     geojsonGruppe.clearLayers();
     // ...
